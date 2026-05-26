@@ -1,12 +1,11 @@
-import React from "react";
 export function Footer() {
   return (
     <footer className="bg-brand-asphalt text-gray-400 py-12 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-3 gap-8 mb-8 pb-8 border-b border-gray-800">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3 mb-8 pb-8 border-b border-gray-800">
           {/* Brand */}
           <div>
-            <a href="#" className="flex flex-col mb-4 inline-block">
+            <a href="#" className="flex flex-col mb-4">
               <span className="font-heading text-2xl font-bold tracking-tight text-white uppercase leading-none">
                 Normile
               </span>
@@ -94,7 +93,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-between items-center text-xs uppercase tracking-wider font-semibold">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-2 text-xs uppercase tracking-wider font-semibold">
           <p>
             &copy; {new Date().getFullYear()} Normile Sealcoating. All rights
             reserved.

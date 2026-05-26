@@ -14,6 +14,11 @@
   }
   body {
     @apply font-sans text-gray-800 bg-gray-50 antialiased;
+    overflow-x: hidden;
+  }
+  img {
+    display: block;
+    max-width: 100%;
   }
   h1, h2, h3, h4, h5, h6 {
     @apply font-heading tracking-tight;
@@ -21,6 +26,11 @@
 }
 @layer utilities {
   .text-balance {
-    text-wrap: balance;
+    overflow-wrap: anywhere;
+  }
+
+  .testimonial-pattern {
+    background-image: radial-gradient(#fff 1px, transparent 1px);
+    background-size: 24px 24px;
   }
 }
