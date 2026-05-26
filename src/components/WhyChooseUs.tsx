@@ -35,9 +35,10 @@ export function WhyChooseUs() {
         <div className="grid lg:grid-cols-2 gap-10 sm:gap-12 lg:gap-16 items-center">
           <FadeIn direction="right">
             <img
-              src="https://images.unsplash.com/photo-1518481852452-9415b262eba4?q=80&w=1600&auto=format&fit=crop"
-              alt="Professional contractor working on a driveway"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Modern_residential_driveway_Costa_dels_Pins_Mallorca.jpg/1280px-Modern_residential_driveway_Costa_dels_Pins_Mallorca.jpg"
+              alt="Modern residential driveway with a clean finished surface"
               className="w-full h-80 sm:h-[420px] lg:h-[500px] object-cover shadow-2xl"
+              loading="lazy"
             />
           </FadeIn>
 

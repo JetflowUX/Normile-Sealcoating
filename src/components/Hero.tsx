@@ -6,11 +6,12 @@ export function Hero() {
     <section className="relative min-h-[90vh] flex items-center pt-24 sm:pt-20 bg-brand-asphalt overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-brand-asphalt via-brand-asphalt/90 to-brand-asphalt/40 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-brand-asphalt via-brand-asphalt/85 to-brand-asphalt/25 z-10" />
         <img
-          src="https://images.unsplash.com/photo-1584464457692-73ec4d7d3324?q=80&w=2000&auto=format&fit=crop"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/2022-08-03_15_58_00_A_freshly_sealed_asphalt_driveway_along_Van_Duyn_Drive_in_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/1280px-2022-08-03_15_58_00_A_freshly_sealed_asphalt_driveway_along_Van_Duyn_Drive_in_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg"
           alt="Freshly sealed black asphalt driveway"
           className="w-full h-full object-cover object-center"
+          fetchPriority="high"
         />
       </div>
 

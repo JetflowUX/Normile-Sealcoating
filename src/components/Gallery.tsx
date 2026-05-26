@@ -3,28 +3,28 @@ import { FadeIn } from "./ui/FadeIn";
 export function Gallery() {
   const images = [
     {
-      url: "https://images.unsplash.com/photo-1584464457692-73ec4d7d3324?q=80&w=800&auto=format&fit=crop",
-      caption: "Maple Drive — Summer 2025",
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/2024-06-25_11_43_25_An_asphalt_driveway_with_a_fresh_sealcoat_along_Mountain_View_Road_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/1280px-2024-06-25_11_43_25_An_asphalt_driveway_with_a_fresh_sealcoat_along_Mountain_View_Road_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg",
+      caption: "Fresh Sealcoat Finish",
     },
     {
-      url: "https://images.unsplash.com/photo-1518481612222-68bbe828ecd1?q=80&w=800&auto=format&fit=crop",
-      caption: "Oak Street — Fall 2025",
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/2023-09-20_13_47_41_A_fresh_layer_of_sealcoat_being_applied_to_an_asphalt_driveway_along_Lochatong_Road_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/1280px-2023-09-20_13_47_41_A_fresh_layer_of_sealcoat_being_applied_to_an_asphalt_driveway_along_Lochatong_Road_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg",
+      caption: "Sealcoat Application",
     },
     {
-      url: "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?q=80&w=800&auto=format&fit=crop",
-      caption: "Pine Court — Spring 2026",
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/2026-04-14_12_06_18_Fresh_asphalt_on_a_newly_paved_driveway_along_Windybush_Way_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/1280px-2026-04-14_12_06_18_Fresh_asphalt_on_a_newly_paved_driveway_along_Windybush_Way_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg",
+      caption: "New Asphalt Surface",
     },
     {
-      url: "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?q=80&w=800&auto=format&fit=crop",
-      caption: "Cedar Lane — Summer 2025",
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Asphalt_paver_working.jpg/1280px-Asphalt_paver_working.jpg",
+      caption: "Driveway Prep Crew",
     },
     {
-      url: "https://images.unsplash.com/photo-1518481852452-9415b262eba4?q=80&w=800&auto=format&fit=crop",
-      caption: "Elm Avenue — Fall 2025",
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Modern_residential_driveway_Costa_dels_Pins_Mallorca.jpg/1280px-Modern_residential_driveway_Costa_dels_Pins_Mallorca.jpg",
+      caption: "Residential Driveway",
     },
     {
-      url: "https://images.unsplash.com/photo-1584464457692-73ec4d7d3324?q=80&w=800&auto=format&fit=crop",
-      caption: "Birch Way — Spring 2026",
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/2022-08-03_15_58_00_A_freshly_sealed_asphalt_driveway_along_Van_Duyn_Drive_in_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/1280px-2022-08-03_15_58_00_A_freshly_sealed_asphalt_driveway_along_Van_Duyn_Drive_in_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg",
+      caption: "Jet Black Finish",
     },
   ];
 
@@ -52,6 +52,7 @@ export function Gallery() {
                   src={img.url}
                   alt={`Sealcoated driveway at ${img.caption}`}
                   className="w-full h-60 sm:h-72 object-cover transition-transform duration-500 group-hover:scale-105 opacity-90 group-hover:opacity-100"
+                  loading="lazy"
                 />
 
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6 translate-y-2 group-hover:translate-y-0 transition-transform">

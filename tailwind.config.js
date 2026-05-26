@@ -22,9 +22,6 @@ export default {
         heading: ['Oswald', 'sans-serif'],
         sans: ['Manrope', 'sans-serif'],
       },
-      backgroundImage: {
-        'asphalt-texture': "url('https://images.unsplash.com/photo-1584464457692-73ec4d7d3324?q=80&w=2000&auto=format&fit=crop')",
-      }
     },
   },
   plugins: [],
