@@ -32,7 +32,7 @@ export function Contact() {
                   </p>
                   <a
                     href="tel:555-0198"
-                    className="font-heading text-2xl sm:text-3xl font-bold text-brand-asphalt hover:text-brand-orange transition-colors break-words"
+                    className="font-heading text-xl sm:text-2xl font-bold text-brand-asphalt hover:text-brand-orange transition-colors break-words"
                   >
                     (555) 019-8273
                   </a>

@@ -27,7 +27,7 @@ export function Hero() {
           </FadeIn>
 
           <FadeIn delay={0.1}>
-            <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-heading font-bold text-white uppercase leading-[0.95] mb-6 text-balance">
+            <h1 className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-heading font-bold text-white uppercase leading-[0.95] mb-6 text-balance">
               They Pave It,
               <br />
               <span className="text-brand-orange">We Save It.</span>
@@ -35,7 +35,7 @@ export function Hero() {
           </FadeIn>
 
           <FadeIn delay={0.2}>
-            <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-10 max-w-2xl font-medium leading-relaxed">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 mb-10 max-w-2xl font-medium leading-relaxed">
               We specialize exclusively in{" "}
               <strong className="text-white">
                 Hot Oil-Based Gilsonite Asphalt Sealer

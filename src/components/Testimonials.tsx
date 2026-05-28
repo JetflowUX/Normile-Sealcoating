@@ -43,7 +43,7 @@ export function Testimonials() {
                     <Star key={i} className="w-5 h-5 fill-current" />
                   ))}
                 </div>
-                <p className="text-gray-200 italic mb-8 flex-grow leading-relaxed">
+                <p className="text-sm sm:text-base text-gray-200 italic mb-8 flex-grow leading-relaxed">
                   "{review.text}"
                 </p>
                 <div>

@@ -51,7 +51,7 @@ export function Gallery() {
                 <img
                   src={img.url}
                   alt={`Sealcoated driveway at ${img.caption}`}
-                  className="w-full h-60 sm:h-72 object-cover transition-transform duration-500 group-hover:scale-105 opacity-90 group-hover:opacity-100"
+                  className="w-full h-44 sm:h-60 md:h-72 object-cover transition-transform duration-500 group-hover:scale-105 opacity-90 group-hover:opacity-100"
                   loading="lazy"
                 />
 

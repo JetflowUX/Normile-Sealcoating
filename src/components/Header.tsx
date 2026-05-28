@@ -42,7 +42,7 @@ export function Header() {
         <div className="flex items-center justify-between gap-3">
           {/* Logo */}
           <a href="#" className="flex flex-col">
-            <span className="font-heading text-xl sm:text-2xl md:text-3xl font-bold tracking-tight text-white uppercase leading-none">
+            <span className="font-heading text-lg sm:text-2xl md:text-3xl font-bold tracking-tight text-white uppercase leading-none">
               Normile
             </span>
             <span className="font-heading text-brand-orange text-xs sm:text-sm md:text-base font-semibold tracking-widest uppercase leading-none mt-1">
@@ -67,7 +67,7 @@ export function Header() {
           <div className="hidden lg:flex items-center space-x-6">
             <a href="tel:555-0198" className="flex items-center group">
               <Phone className="w-5 h-5 text-brand-orange mr-2 group-hover:animate-pulse" />
-              <span className="font-heading text-xl font-bold tracking-wide group-hover:text-brand-orange transition-colors">
+              <span className="font-heading text-lg font-bold tracking-wide group-hover:text-brand-orange transition-colors">
                 (555) 019-8273
               </span>
             </a>
@@ -78,7 +78,7 @@ export function Header() {
 
           {/* Mobile Menu Toggle */}
           <button
-            className="lg:hidden text-white p-2"
+            className="lg:hidden text-white p-3"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             {mobileMenuOpen ? (

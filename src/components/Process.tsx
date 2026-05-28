@@ -53,13 +53,13 @@ export function Process() {
             {steps.map((step, index) => (
               <FadeIn key={index} delay={index * 0.15} className="relative">
                 <div className="flex flex-col items-center text-center">
-                  <div className="w-16 h-16 bg-brand-purple border-4 border-brand-asphalt flex items-center justify-center rounded-full mb-6 relative z-10 shadow-xl">
+                  <div className="w-12 h-12 md:w-16 md:h-16 bg-brand-purple border-4 border-brand-asphalt flex items-center justify-center rounded-full mb-6 relative z-10 shadow-xl">
                     {step.icon}
-                    <div className="absolute -top-2 -right-2 w-6 h-6 bg-brand-orange rounded-full flex items-center justify-center text-xs font-bold text-white">
+                    <div className="absolute -top-2 -right-2 w-6 h-6 md:w-6 md:h-6 bg-brand-orange rounded-full flex items-center justify-center text-xs font-bold text-white">
                       {index + 1}
                     </div>
                   </div>
-                  <h4 className="font-heading text-xl font-bold uppercase mb-3 text-gray-100">
+                  <h4 className="font-heading text-lg md:text-xl font-bold uppercase mb-3 text-gray-100">
                     {step.title}
                   </h4>
                   <p className="text-gray-400 text-sm leading-relaxed">
